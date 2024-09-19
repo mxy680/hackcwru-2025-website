@@ -87,7 +87,7 @@ body {
     font-weight: 200;
   }
   .text-base {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .text-lg {
     font-size: 3rem;
@@ -95,4 +95,32 @@ body {
   .text-xl {
     font-size: 12rem;
   }
+}
+
+/* Cool hover effect for links */
+.link-animation {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-animation::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: -2px; /* Position the underline slightly below the text */
+  left: 0;
+  background-color: white;
+  transition: width 0.2s ease-in-out;
+}
+
+.link-animation:hover {
+  transform: translateY(-2px); /* Slide the link up on hover */
+}
+
+.link-animation:hover::after {
+  width: 100%; /* Expand the underline from left to right */
 }

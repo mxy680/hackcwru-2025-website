@@ -7,7 +7,9 @@ export function EmailSignUp() {
                     placeholder="Your Email"
                     className="py-2 px-0 bg-transparent text-white focus:outline-none placeholder-gray-400 text-sm w-full"
                 />
-                <button className="text-white text-sm ml-4 whitespace-nowrap">Sign Up</button>
+                <button className="text-white text-sm ml-4 whitespace-nowrap transition transform hover:scale-105 px-4 py-2 rounded-md">
+                    Sign Up
+                </button>
             </div>
         </div>
     );
