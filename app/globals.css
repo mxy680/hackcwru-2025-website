@@ -91,3 +91,17 @@ body {
 .link-animation:hover::after {
   width: 100%; /* Expand the underline from left to right */
 }
+
+/* Custom Tailwind animation for fade in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
