@@ -4,7 +4,7 @@ export function Footer() {
             <span className="col-span-1 text-xs md:text-sm text-left">Case Western Reserve University</span>
             <span className="col-span-2 text-xs md:text-sm text-center">February 2025</span>
             <span className="col-span-1 text-xs md:text-sm text-right">
-                <a href="/about" className="link-animation">Learn more</a>
+                <a href="/about" className="link-animation z-10">Learn more</a>
             </span>
         </div>
     );
