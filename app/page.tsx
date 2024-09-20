@@ -5,7 +5,7 @@ import { Header } from './header';
 import { Countdown } from '@/components/countdown';
 import { EmailSignUp } from '@/components/email-signup';
 import { Footer } from './footer';
-import { Planet } from '@/components/planet';
+import { Particles } from '@/components/particles';
 
 export default function Home() {
   const targetDate = new Date('2025-02-01T00:00:00').getTime();
@@ -43,7 +43,7 @@ export default function Home() {
       <Countdown timeLeft={timeLeft} />
       <EmailSignUp />
       <Footer />
-      <Planet />
+      <Particles />
     </div>
   );
 }

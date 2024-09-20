@@ -4,7 +4,7 @@ export function Header() {
             <span className="col-span-1 text-xs md:text-sm text-left">
                 <a href="/sponsors" className='link-animation'>Sponsors</a>
             </span>
-            <span className="col-span-2 text-xs md:text-base text-center">HackCWRU 2025</span>
+            <span className="col-span-2 text-xs md:text-base text-center">HACK CWRU 2025</span>
             <span className="col-span-1 text-xs md:text-sm text-right">
                 <a href='/linktree' className='link-animation'>Follow us</a>
             </span>

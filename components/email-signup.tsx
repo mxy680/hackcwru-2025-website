@@ -1,6 +1,6 @@
 export function EmailSignUp() {
     return (
-        <div className="absolute grid grid-cols-4 bottom-[15vh] w-full">
+        <div className="absolute grid grid-cols-4 bottom-[15vh] w-full z-10">
             <div className="col-span-2 col-start-2 flex items-center border-b border-white justify-between w-full max-w-md mx-auto">
                 <input
                     type="text"
